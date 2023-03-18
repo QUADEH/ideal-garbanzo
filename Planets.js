@@ -1,6 +1,6 @@
 function buttonPressed(buttonId) {
   buttonCounts[buttonId]++;
-  document.getElementById("button-text").innerHTML = "You pressed " + buttonId + " " + buttonCounts[buttonId] + " times.";
+  document.getElementById("button-text").innerHTML = "You pressed " + buttonId + "You've clicked a total of" + buttonCounts[buttonId] + " times.";
 }
 
 let buttonCounts = {
