@@ -1,0 +1,30 @@
+.body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.banner {
+  background-color: #8463f9;
+  height: 100px;
+  text-align: center;
+  padding: 20px;
+}
+
+.banner-link {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.banner-divider {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.items {
+  background-color: rgb(0, 70, 60);
+  font-size: 32px;
+  color:white
+}
