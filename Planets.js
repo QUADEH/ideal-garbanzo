@@ -23,12 +23,12 @@ function resetCounts() {
   buttonCounts.Jupiter = 0;
   buttonCounts.Uranus = 0;
   buttonCounts.Neptune = 0;
-  document.getElementById("Mercury-text").innerHTML = "";
-  document.getElementById("Venus-text").innerHTML = "";
-  document.getElementById("Earth-text").innerHTML = "";
-  document.getElementById("Mar-text").innerHTML = "";
-  document.getElementById("Saturn-text").innerHTML = "";
-  document.getElementById("Jupiter-text").innerHTML = "";
-  document.getElementById("Uranus-text").innerHTML = "";
-  document.getElementById("Neptune-text").innerHTML = "";
+  document.getElementById("Mercury").innerHTML = 0;
+  document.getElementById("Venus").innerHTML = 0;
+  document.getElementById("Earth").innerHTML = 0;
+  document.getElementById("Mars").innerHTML = 0;
+  document.getElementById("Saturn").innerHTML = 0;
+  document.getElementById("Jupiter").innerHTML = 0;
+  document.getElementById("Uranus").innerHTML = 0;
+  document.getElementById("Neptune").innerHTML = 0;
 }
