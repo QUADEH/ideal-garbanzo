@@ -15,20 +15,9 @@ let buttonCounts = {
 };
 
 function resetCounts() {
-  buttonCounts.Mercury = 0;
-  buttonCounts.Venus = 0;
-  buttonCounts.Earth = 0;
-  buttonCounts.Mars = 0;
-  buttonCounts.Saturn = 0;
-  buttonCounts.Jupiter = 0;
-  buttonCounts.Uranus = 0;
-  buttonCounts.Neptune = 0;
-  document.getElementById("Mercury").innerHTML = 0;
-  document.getElementById("Venus").innerHTML = 0;
-  document.getElementById("Earth").innerHTML = 0;
-  document.getElementById("Mars").innerHTML = 0;
-  document.getElementById("Saturn").innerHTML = 0;
-  document.getElementById("Jupiter").innerHTML = 0;
-  document.getElementById("Uranus").innerHTML = 0;
-  document.getElementById("Neptune").innerHTML = 0;
+  let btnClear = document.querySelector('button-text');
+  let inputs = document.querySelectorAll('input');
+  btnClear.addEventListener('click', () => {
+  inputs.forEach(input =>  input.value = 0);
+});
 }
