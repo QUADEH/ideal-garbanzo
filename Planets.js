@@ -15,7 +15,7 @@ let buttonCounts = {
 };
 
 function resetCounts() {
-  let btnClear = document.querySelector('button-text');
+  let btnClear = document.querySelector(buttonCounts[buttonId]);
   let inputs = document.querySelectorAll('input');
   btnClear.addEventListener('click', () => {
   inputs.forEach(input =>  input.value = 0);
