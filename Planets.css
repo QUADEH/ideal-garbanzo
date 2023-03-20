@@ -11,6 +11,7 @@
 
 .banner-link {
   display: inline-block;
+  text-align: center;
   margin-right: 10px;
   font-size: 24px;
   color: #333;
@@ -21,19 +22,19 @@
   margin-right: 100px;
   text-align: center;
   font-size: 36px;
-  color: #000000;
+  color: black;
 }
 
 .items {
   background-color: rgb(255, 255, 255);
   font-size: 32px;
-  color:white;
+  color: black;
   border-style: ridge;
 }
 
 .button {
   background-color: aqua;
-  color: white;
+  color: blue;
   border: none;
   height: 36px;
   width: 105px;
