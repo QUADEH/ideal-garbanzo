@@ -18,6 +18,6 @@ function resetCounts() {
   let btnClear = document.querySelector(buttonCounts[buttonId]);
   let inputs = document.querySelectorAll('input');
   btnClear.addEventListener('click', () => {
-  inputs.forEach(input =>  input.value = 0);
+      inputs.forEach(input =>  input.value = 0);
 });
 }
