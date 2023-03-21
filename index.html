@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>My Planet Webpage</title>
-    <link rel="stylesheet" type="text/css" href="Planets.css">
-  </head>
 
-  <body>
-      <div class="banner">
-        <span class="banner-link">Home</span>
-        <span class="banner-divider">/</span>
-        <span class="banner-link">About</span>
-        <span class="banner-divider">/</span>
-        <span class="banner-link">Help</span>
-      </div>
+<head>
+  <title>My Planet Webpage</title>
+  <link rel="stylesheet" type="text/css" href="Planets.css">
+</head>
 
-      <div class="items">
-        <ul>
-          <li><button id ="Mercury" onclick="buttonPressed('Mercury')">Mercury</button></li>
-          <li><button id ="Venus" onclick="buttonPressed('Venus')">Venus</button></li>
-          <li><button id ="Earth" onclick="buttonPressed('Earth')">Earth</button></li>
-          <li><button id ="Mars" onclick="buttonPressed('Mars')">Mars</button></li>
-          <li><button id ="Saturn" onclick="buttonPressed('Saturn')">Saturn</button></li>
-          <li><button id ="Jupiter" onclick="buttonPressed('Jupiter')">Jupiter</button></li>
-          <li><button id ="Uranus" onclick="buttonPressed('Uranus')">Uranus</button></li>
-          <li><button id ="Neptune" onclick="buttonPressed('Neptune')">Neptune</button></li>
+<body>
+  <div class="banner">
+    <span class="banner-link">Home</span>
+    <span class="banner-link">About</span>
+    <span class="banner-link">Help</span>
+    <span class="banner-link">Info</span>
+  </div>
 
-          <p id="button-text"></p>
-          
-          <button onclick="resetCounts()">Reset</button>
+  <ul class="items center">
+    <li><button>Mercury</button></li>
+    <li><button>Venus</button></li>
+    <li><button>Earth</button></li>
+    <li><button>Mars</button></li>
+    <li><button>Saturn</button></li>
+    <li><button>Jupiter</button></li>
+    <li><button>Uranus</button></li>
+    <li><button>Neptune</button></li>
+  </ul>
 
-          <script src = Planets.js></script>
-        </ul>
-      </div>
-  </body>
+  <p class="result"></p>
+
+<div class="center">
+  <button onclick="resetCounts()">Reset</button>
+</div>
+  <script src=Planets.js></script>
+</body>
+
 </html>
