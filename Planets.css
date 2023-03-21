@@ -1,9 +1,10 @@
-.body {
+body {
+  background: black;
+  color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .banner {
-  background-color: #ffffff;
   height: 100px;
   text-align: center;
   padding: 12px;
@@ -14,28 +15,34 @@
   text-align: center;
   margin-right: 10px;
   font-size: 24px;
-  color: #333;
 }
 
-.banner-divider {
-  display: inline-block;
-  margin-right: 100px;
-  text-align: center;
-  font-size: 36px;
-  color: black;
+.banner-link + .banner-link::before {
+  content: '/ ';
 }
 
 .items {
-  background-color: rgb(255, 255, 255);
   font-size: 32px;
-  color: black;
   border-style: ridge;
+  list-style: none;
+  padding: 0;
 }
 
-.button {
-  background-color: aqua;
-  color: blue;
+button {
+  background-color: rebeccapurple;
   border: none;
+  color: white;
   height: 36px;
   width: 105px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.result {
+  text-align: center;
 }
